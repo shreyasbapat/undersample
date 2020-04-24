@@ -17,7 +17,7 @@ def complex_points(z):
     return (z.real, z.imag)
 
 
-# From http://floppsie.comp.glam.ac.uk/Southwales/gaius/gametools/6.html with minor modifications
+# From http://floppsie.comp.glam.ac.uk/Southwales/gaius/gametools/6.html
 def points(start, end):
     """
     Bresenham's Line Drawing Algorithm in 2D
@@ -58,7 +58,7 @@ def points(start, end):
     return l
 
 
-def get_radial_plot(dim=250, numradii=20, plot=True):
+def get_radial(dim=250, numradii=20, plot=True):
     """
     Input:
     ------
